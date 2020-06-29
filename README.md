@@ -1,9 +1,9 @@
 # 03-password-generator
 This website contains a random password generator powered by HTML, CSS, and Javascript. A user can specify preferred password criteria using letters, numbers, and special characters. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. 
 
-Here is the link to my password generator is (link here).
+Here is the link to my password generator is (link here)
 
-Here is a preview of my password generator: (screenshots here).
+Here is a preview of my password generator: (screenshots here)
 
 ## User Story
 
