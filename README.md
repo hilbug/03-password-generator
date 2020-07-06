@@ -2,9 +2,9 @@
 
 ## Overview
 
-This website contains a random password generator powered by HTML, CSS, and Javascript. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. A user can specify preferred password criteria using upper and lower-cased letters, numbers, and special characters by responding to prompts. When the password is generated, the user can copy the password to their clipboard.  
+This website contains a random password generator powered by HTML, CSS, and Javascript. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. A user can specify preferred password criteria by responding to prompts for upper and lower-cased letters, numbers, and special characters. When the password is generated, the user can copy the password to their clipboard.  The password generator can be accessed here: https://hilbug.github.io/03-password-generator/
 
-Here is the link to my password generator: https://hilbug.github.io/03-password-generator/
+## Preview
 
 Here is a preview of my password generator:
 
@@ -20,7 +20,7 @@ Here is a preview of my password generator:
 
 ## User Story and Acceptance Criteria
 
-## User Story
+### User Story
 
 ```
 AS AN employee with access to sensitive data
