@@ -1,13 +1,24 @@
 # 03-password-generator
-This website contains a random password generator powered by HTML, CSS, and Javascript. A user can specify preferred password criteria using upper and lower-cased letters, numbers, and special characters. When the password is generated, the user can copy to the password to their clipboard. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. 
+
+## Overview
+
+This website contains a random password generator powered by HTML, CSS, and Javascript. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. A user can specify preferred password criteria using upper and lower-cased letters, numbers, and special characters by responding to prompts. When the password is generated, the user can copy the password to their clipboard.  
 
 Here is the link to my password generator: https://hilbug.github.io/03-password-generator/
 
 Here is a preview of my password generator:
+
+### Password Generator Page
 <img width="881" alt="Screen Shot 2020-07-05 at 10 55 22 PM" src="https://user-images.githubusercontent.com/65197724/86551557-5932b280-bf13-11ea-8c4f-fd1f5c8d1a5f.png">
 
+### Prompt Example
+<img width="943" alt="Screen Shot 2020-07-05 at 10 56 08 PM" src="https://user-images.githubusercontent.com/65197724/86552109-0659fa80-bf15-11ea-82e2-e1672f974ebc.png">
+
+### Generated Password Example
 <img width="895" alt="Screen Shot 2020-07-05 at 10 56 31 PM" src="https://user-images.githubusercontent.com/65197724/86551585-72d3fa00-bf13-11ea-88aa-663e5cb5ece4.png">
 
+
+## User Story and Acceptance Criteria
 
 ## User Story
 
@@ -17,7 +28,7 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```
 GIVEN I need a new, secure password
