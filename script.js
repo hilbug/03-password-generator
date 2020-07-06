@@ -66,7 +66,7 @@ function generatePassword() {
     return;
   }
 
-  console.log(pwString);
+  // console.log(pwString);
 
   // generate random string from StackOverflow: 
   // https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
@@ -75,7 +75,7 @@ function generatePassword() {
     userPassword += pwString.charAt(Math.floor(Math.random() * pwString.length));
   }
 
-  console.log(userPassword);
+  // console.log(userPassword);
   userPWPrompt = alert("Your password is " + userPassword);
   return userPassword;
 }
