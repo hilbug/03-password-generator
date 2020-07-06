@@ -18,8 +18,9 @@ function generatePassword() {
   
   // If not a number between 8 and 128, alert user
   // I think I need a while loop but can't get it to work.
+  // This works to return the user to the main page, so they have to click Generate Password again.
   if (userLength < 8 || userLength > 128 || isNaN(userLength)) {
-    alert("Please enter a valid selection for password length.");
+    alert("Please enter a valid selection for password length. Click Generate Password and try again.");
     return;
   };
 
@@ -61,16 +62,16 @@ function generatePassword() {
 
   console.log(pwString);
 
-  let userPassword = "";
-
   // generate random string from StackOverflow: 
   // https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
+  let userPassword = "";
   for (let i = 0; i < userLength; i++) {
     userPassword += pwString.charAt(Math.floor(Math.random() * pwString.length));
   }
 
   console.log(userPassword);
   userPWPrompt = alert("Your password is " + userPassword);
+  return userPassword;
 }
 
 // Add event listener to generate button
