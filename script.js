@@ -17,10 +17,10 @@ function generatePassword() {
   let userLength = prompt("Enter a password length between 8 and 128.");
   
   // If not a number between 8 and 128, alert user
-  // I think I need a while loop but can't get it to work.
+  // I think I needed a while loop but can't get it to work.
   // This works to return the user to the main page, so they have to click Generate Password again.
   if (userLength < 8 || userLength > 128 || isNaN(userLength)) {
-    alert("Please enter a valid selection for password length. Click Generate Password and try again.");
+    alert("Please enter a valid selection for password length. Click Generate Password to try again.");
     return;
   };
 
@@ -58,6 +58,12 @@ function generatePassword() {
 
   if (userSymbols) {
     pwString = pwString + symbols;
+  }
+
+  // if pwString has no characters, alert the user
+  if (pwString === "") {
+    alert("A password requires some characters. Click Generate Password to try again.");
+    return;
   }
 
   console.log(pwString);
