@@ -1,9 +1,13 @@
 # 03-password-generator
-This website contains a random password generator powered by HTML, CSS, and Javascript. A user can specify preferred password criteria using letters, numbers, and special characters. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. 
+This website contains a random password generator powered by HTML, CSS, and Javascript. A user can specify preferred password criteria using upper and lower-cased letters, numbers, and special characters. When the password is generated, the user can copy to the password to their clipboard. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. 
 
-Here is the link to my password generator is (link here)
+Here is the link to my password generator: https://hilbug.github.io/03-password-generator/
 
-Here is a preview of my password generator: (screenshots here)
+Here is a preview of my password generator:
+<img width="881" alt="Screen Shot 2020-07-05 at 10 55 22 PM" src="https://user-images.githubusercontent.com/65197724/86551557-5932b280-bf13-11ea-8c4f-fd1f5c8d1a5f.png">
+
+<img width="895" alt="Screen Shot 2020-07-05 at 10 56 31 PM" src="https://user-images.githubusercontent.com/65197724/86551585-72d3fa00-bf13-11ea-88aa-663e5cb5ece4.png">
+
 
 ## User Story
 
@@ -32,3 +36,7 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+## Websites Referenced
+- To generate a random string for the password, I referenced StackOverflow: https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
+- To incorporate a button so that the user can copy the password to the clipboard, I used code from w3schools: https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
