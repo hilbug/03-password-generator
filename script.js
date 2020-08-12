@@ -20,6 +20,7 @@ function generatePassword() {
   // This works to return the user to the main page, so they have to click Generate Password again.
   if (userLength < 8 || userLength > 128 || isNaN(userLength)) {
     alert("Please enter a valid selection for password length. Click Generate Password to try again.");
+    pwString = "";
     return;
   };
 
@@ -56,10 +57,9 @@ function generatePassword() {
   // if pwString has no characters, alert the user
   if (pwString === "") {
     alert("A password requires some characters. Click Generate Password to try again.");
+    pwString = "";
     return;
   }
-
-  // console.log(pwString);
 
   // generate random string from StackOverflow: 
   // https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
