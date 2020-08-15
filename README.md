@@ -1,5 +1,7 @@
 # Random Password Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 ## Overview
 
 A user can specify preferred password criteria by responding to prompts for upper and lower-cased letters, numbers, and special characters. When the password is generated, the user can copy the password to their clipboard. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. 
