@@ -1,8 +1,14 @@
-# 03-password-generator
+# Random Password Generator
 
 ## Overview
 
-This website contains a random password generator powered by HTML, CSS, and Javascript. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. A user can specify preferred password criteria by responding to prompts for upper and lower-cased letters, numbers, and special characters. When the password is generated, the user can copy the password to their clipboard.  The password generator can be accessed here: https://hilbug.github.io/03-password-generator/
+A user can specify preferred password criteria by responding to prompts for upper and lower-cased letters, numbers, and special characters. When the password is generated, the user can copy the password to their clipboard. The website features an easy-to-use interface and responsive web design, adapting to multiple screen sized. 
+
+Deployed app: https://hilbug.github.io/03-password-generator/
+
+Technologies used: HTML, CSS, Javascript
+
+Contact: hil.ferraro@gmail.com
 
 ## Preview
 
